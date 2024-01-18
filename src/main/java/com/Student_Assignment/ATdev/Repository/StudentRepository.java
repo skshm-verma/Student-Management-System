@@ -1,0 +1,13 @@
+package com.Student_Assignment.ATdev.Repository;
+
+import com.Student_Assignment.ATdev.Domain.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student,Integer> {
+
+    //creating a custom method to findBy fullName
+    Student findByFullName(String fullName);
+
+}
