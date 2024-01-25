@@ -33,7 +33,7 @@ Before running the application, ensure you have the following installed:
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/student-management-table.git`
+1. Clone the repository: `git clone https://github.com/yourusername/student-management-system.git`
 2. Open the project in your preferred IDE.
 3. Build the project using Maven: `mvn clean install`
 4. Run the application: `mvn spring-boot:run`
